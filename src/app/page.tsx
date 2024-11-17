@@ -33,7 +33,7 @@ export default async function Home() {
 	const projects: Project[] = projectData.map((project) => ({
 		title: project.title,
 		description: project.description,
-		techStack: project.techStack,
+
 		logo: project.logo,
 		websiteLink: project.websiteLink,
 		githubLink: project.githubLink,
