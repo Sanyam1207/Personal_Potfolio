@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 	title: "Portfolio | Sabhya Agarwal - Web Developer",
 	description: "I'm Sabhya Agarwal, a web developer based in New Delhi, India.",
 	alternates: {
-		canonical: "https://sabhyaagarwal.vercel.app",
+		canonical: "https://sabhyaagarwal.netlify.app/",
 		languages: {
 			"en-US": "/en-US",
 		},
@@ -24,11 +24,11 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Portfolio | Sabhya Agarwal - Full Stack Developer",
 		description: "I'm Sabhya Agarwal, a web developer based in Delhi, India.",
-		url: "https://sabhyaagarwal.vercel.app",
+		url: "https://sabhyaagarwal.netlify.app/",
 		siteName: "Sabhya Agarwal's Portfolio",
 		images: [
 			{
-				url: "https://sabhyaagarwal.vercel.app/og/og.png",
+				url: "https://sabhyaagarwal.netlify.app//og/og.png",
 			},
 		],
 		locale: "en_US",
