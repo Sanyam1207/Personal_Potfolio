@@ -3,7 +3,6 @@ import { Oxanium, Poppins } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { URL } from "url";
 import { Analytics } from "@vercel/analytics/react";
 
 const poppin = Poppins({ subsets: ["latin"], weight: "600" });
