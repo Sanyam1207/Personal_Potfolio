@@ -19,12 +19,12 @@ function About() {
 				>
 					<div className="mx-auto flex w-full flex-col items-center gap-2 self-start rounded-2xl bg-zinc-900 p-3">
 						<Image
-							alt={"/self.jpg"}
+							alt="/self.jpg"
 							width={1000}
 							height={1000}
-							loading={"lazy"}
+							loading="lazy"
 							className="h-60 w-full rounded-2xl bg-violet-100 object-cover object-top grayscale transition-all hover:grayscale-0 md:h-80 lg:h-80"
-							src={"/shinchan.jpeg"}
+							src="/shinchan.jpeg"
 						/>
 						<span className="font-sans font-medium dark:text-gray-300">
 							{"< I Build Stuff 🚀 />"}
@@ -43,9 +43,9 @@ function About() {
 
 							As a proud SIH 2022 finalist and runner-up, I’ve proven my ability to tackle complex challenges and deliver impactful solutions. My journey as a developer has been enriched by participating in multiple hackathons, where collaboration and problem-solving are at the forefront. Currently, I’m contributing as a web developer at IPU-IIF (Innovation and Incubation Foundation), where I’m working on projects that drive innovation.
 
-							Whether it's designing sleek, user-friendly interfaces or building robust back-end systems, I’m all about delivering quality, efficiency, and reliability in every project. I’m always eager to learn new tools, explore emerging technologies, and collaborate with like-minded individuals on exciting ventures.
+							Whether it&apos;s designing sleek, user-friendly interfaces or building robust back-end systems, I’m all about delivering quality, efficiency, and reliability in every project. I&apos;m always eager to learn new tools, explore emerging technologies, and collaborate with like-minded individuals on exciting ventures.
 
-							Let’s connect and create something awesome together! 🚀
+							Let&apos;s connect and create something awesome together! 🚀
 						</p>
 						<div className="mt-2 flex items-center gap-4 md:mt-4">
 							<Link
@@ -57,7 +57,7 @@ function About() {
 							</Link>
 							<Link
 								className="group flex w-fit cursor-pointer items-center gap-1 rounded-md bg-violet-700 px-4 py-2 text-sm text-white transition-colors hover:bg-violet-800 md:text-base"
-								href={"#skills"}
+								href="#skills"
 							>
 								<span>My Skills</span>
 							</Link>
