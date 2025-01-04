@@ -104,7 +104,7 @@ function Hero({ socialMedia }: Props) {
 					Hey
 				</p>
 				<h1 className={`text-4xl font-bold md:text-6xl ${oxanium.className}`}>
-					I&apos;m Sabhya Agarwal
+					I&apos;m Sanyam Pandey
 				</h1>
 				<div className="text-lg font-semibold md:text-2xl">
 					I am a{" "}

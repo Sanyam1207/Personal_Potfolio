@@ -12,8 +12,8 @@ const oxanium = Oxanium({
 });
 
 export const metadata: Metadata = {
-	title: "Portfolio | Sabhya Agarwal - Web Developer",
-	description: "I'm Sabhya Agarwal, a web developer based in New Delhi, India.",
+	title: "Portfolio | Sanyam Pandey - Full Stack Web Developer",
+	description: "I'm Sanyam Pandey, a web developer based in New Delhi, India.",
 	alternates: {
 		canonical: "https://sabhyaagarwal.netlify.app/",
 		languages: {
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
 		},
 	},
 	openGraph: {
-		title: "Portfolio | Sabhya Agarwal - Full Stack Developer",
-		description: "I'm Sabhya Agarwal, a web developer based in Delhi, India.",
+		title: "Portfolio | Sanyam Pandey - Full Stack Web Developer",
+		description: "I'm Sanyam Pandey, a web developer based in Delhi, India.",
 		url: "https://sabhyaagarwal.netlify.app/",
-		siteName: "Sabhya Agarwal's Portfolio",
+		siteName: "Sanyam Pandey's Portfolio",
 		images: [
 			{
 				url: "https://sabhyaagarwal.netlify.app//og/og.png",
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Portfolio | Sabhya Agarwal - Full Stack Developer",
-		description: "I'm Sabhya Agarwal, a web developer based in Delhi, India.",
+		title: "Portfolio | Sanyam Pandey - Full Stack Web Developer",
+		description: "I'm Sanyam Pandey, a full stack web developer based in Delhi, India.",
 		creator: "",
 		images: [""],
 	},
 
 	keywords:
-		"Sabhya Agarwal, portfolio, Sabhya, full stack dev, nextjs portfolio, portfolio design, portfolio website, personal portfolio",
+		"Sanyam Pandey, portfolio, Sanyam, full stack dev, nextjs portfolio, portfolio design, portfolio website, personal portfolio",
 };
 
 export default function RootLayout({
@@ -56,6 +56,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				{/* Favicon */}
+				<link rel="icon" href="/faviconportfolio.png" type="image/x-icon" />
+				<link rel="shortcut icon" href="/faviconportfolio.png" type="image/x-icon" />
+			</head>
 			<body
 				className={
 					poppin.className +
@@ -64,7 +69,7 @@ export default function RootLayout({
 			>
 				<Navigation />
 				{children}
-			
+
 
 				<Footer />
 			</body>

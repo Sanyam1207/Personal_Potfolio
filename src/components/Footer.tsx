@@ -8,7 +8,7 @@ function Footer() {
 		>
 			<div className="mx-auto flex flex-col items-center justify-between gap-4 py-4 tracking-wide md:mx-6 md:flex-row md:gap-0 lg:mx-10 lg:py-6 xl:mx-auto xl:max-w-6xl">
 				<p>
-					Made with<span className="animate-pulse"> ❤️ </span>by Sabhya
+					Made with<span className="animate-pulse"> ❤️ </span>by Sanyam
 					{/* </span> */}
 				</p>
 				<p>

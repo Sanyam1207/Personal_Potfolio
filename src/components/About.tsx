@@ -33,18 +33,19 @@ function About() {
 				</BackgroundGradient>
 				<div className="mx-6 mt-8 flex-1 text-left md:mx-0 md:mt-0 md:p-6">
 					<div className="flex flex-col gap-2.5">
-						<p className="text-3xl font-semibold">Sabhya Agarwal</p>
+						<p className="text-3xl font-semibold">Sanyam Pandey</p>
 						<p className="w-fit rounded bg-violet-50 px-2 py-1 text-sm text-violet-800 dark:bg-violet-600/15 dark:text-violet-500">
-							Full stack Developer
+							Full stack Developer - [MERN Stack, NextJs]
 						</p>
+
 						<p className="text-sm text-zinc-400 md:text-lg md:font-semibold">
-							Hey there! I&apos;m a full-stack developer based in Delhi.
-							I&apos;m all about crafting cool digital stuff that works like a
-							charm. Whether it&apos;s making sleek front-end designs or
-							building sturdy back-end systems, I love turning ideas into
-							reality with code. I&apos;m always up for learning new things and
-							teaming up on exciting projects. Let&apos;s chat and see what
-							awesome things we can create together!
+							Hi there! 👋 I’m a passionate full-stack developer based in Delhi, dedicated to crafting innovative digital solutions. With expertise in Next.js, React, Node.js, Tailwind CSS, and a variety of modern frontend and backend libraries like Bootstrap and Chakra UI, I thrive on turning creative ideas into functional and visually stunning applications.
+
+							As a proud SIH 2022 finalist and runner-up, I’ve proven my ability to tackle complex challenges and deliver impactful solutions. My journey as a developer has been enriched by participating in multiple hackathons, where collaboration and problem-solving are at the forefront. Currently, I’m contributing as a web developer at IPU-IIF (Innovation and Incubation Foundation), where I’m working on projects that drive innovation.
+
+							Whether it's designing sleek, user-friendly interfaces or building robust back-end systems, I’m all about delivering quality, efficiency, and reliability in every project. I’m always eager to learn new tools, explore emerging technologies, and collaborate with like-minded individuals on exciting ventures.
+
+							Let’s connect and create something awesome together! 🚀
 						</p>
 						<div className="mt-2 flex items-center gap-4 md:mt-4">
 							<Link

@@ -42,18 +42,13 @@ export default async function Home() {
 	const socialMedia = [
 		{
 			name: "LinkedIn",
-			link: "https://www.linkedin.com/in/sabhya-agarwal-383408207/",
+			link: "https://www.linkedin.com/in/sanyam-pandey-07s122004/",
 			logo: <LiaLinkedinIn className="size-5" />,
 		},
 		{
 			name: "GitHub",
-			link: "https://github.com/Sabhya404",
+			link: "https://github.com/Sanyam1207",
 			logo: <BsGithub className="size-5" />,
-		},
-		{
-			name: "Twitter",
-			link: "https://x.com/SabhyaAgarwal",
-			logo: <BsTwitter className="size-5" />,
 		},
 	];
 
