@@ -132,7 +132,7 @@ function Hero({ socialMedia }: Props) {
 					width={1000}
 					height={1000}
 					className="h-full w-full rounded-full object-cover object-center"
-					src={"/self.jpg"}
+					src={"/dp_image_hero.jpg"}
 				/>
 				<OrbitImage
 					src={

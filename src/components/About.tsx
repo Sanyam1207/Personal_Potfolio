@@ -25,7 +25,7 @@ function About() {
 							height={1000}
 							loading="lazy"
 							className="h-60 w-full rounded-2xl bg-violet-100 object-cover object-top grayscale transition-all hover:grayscale-0 md:h-80 lg:h-80"
-							src="/shinchan.jpeg"
+							src="/dp_image.jpg"
 						/>
 						<span className="font-sans font-medium dark:text-gray-300">
 							{"< I Build Stuff 🚀 />"}
