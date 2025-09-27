@@ -13,13 +13,14 @@ function About() {
 				About Me
 			</h2>
 			<div className="mx-auto mt-2 flex w-full flex-col items-center justify-between md:gap-4 lg:mt-20 lg:w-11/12 lg:flex-row 2xl:w-4/5">
+				{/* Profile Card */}
 				<BackgroundGradient
 					className="w-full"
 					containerClassName="mx-auto flex w-56 flex-col items-center gap-2 self-start rounded-lg p-1 transition-transform duration-300 hover:-translate-y-2 md:w-2/5 lg:mx-16 lg:w-72 lg:-rotate-3"
 				>
 					<div className="mx-auto flex w-full flex-col items-center gap-2 self-start rounded-2xl bg-zinc-900 p-3">
 						<Image
-							alt="/self.jpg"
+							alt="profile"
 							width={1000}
 							height={1000}
 							loading="lazy"
@@ -31,23 +32,94 @@ function About() {
 						</span>
 					</div>
 				</BackgroundGradient>
+
+				{/* About Content */}
 				<div className="mx-6 mt-8 flex-1 text-left md:mx-0 md:mt-0 md:p-6">
-					<div className="flex flex-col gap-2.5">
-						<p className="text-3xl font-semibold">Sanyam Pandey</p>
+					<div className="flex flex-col gap-4 text-sm md:text-lg md:font-medium text-zinc-300">
+						<p className="text-3xl font-semibold text-white">Sanyam Pandey</p>
 						<p className="w-fit rounded bg-violet-50 px-2 py-1 text-sm text-violet-800 dark:bg-violet-600/15 dark:text-violet-500">
-							Full stack Developer - [MERN Stack, NextJs]
+							<strong>Full Stack Developer</strong> | <strong>MERN</strong> | <strong>Next.js</strong> | <strong>React Native</strong>
 						</p>
 
-						<p className="text-sm text-zinc-400 md:text-lg md:font-semibold">
-							Hi there! 👋 I’m a passionate full-stack developer based in Delhi, dedicated to crafting innovative digital solutions. With expertise in Next.js, React, Node.js, Tailwind CSS, and a variety of modern frontend and backend libraries like Bootstrap and Chakra UI, I thrive on turning creative ideas into functional and visually stunning applications.
+						<ul className="list-disc pl-4 space-y-2">
+							<li>
+								<strong>Web Dev Lead @ IPU-IIF</strong> — leading the <strong>dev team</strong>,
+								architecting <strong>startup incubation platforms</strong>, and mentoring <strong>juniors</strong>.
+							</li>
+							<li>
+								<strong>SDE Intern @ Software Giant</strong> — built <strong>scalable full-stack apps</strong>
+								(<strong>e-commerce</strong>, <strong>real-time chatting</strong>, <strong>DB modeling</strong>).
+							</li>
+							<li>
+								<strong>SDE Intern @ PhiPhi</strong> — crafted an <strong>e-commerce platform</strong>
+								with <strong>MERN stack</strong>, boosted <strong>SEO</strong>, and optimized <strong>customer flow</strong>.
+							</li>
+							<li>
+								<strong>CTO Intern @ Sync & Explore</strong> — helping shape a <strong>coaching platform</strong> (
+								<Link
+									href="https://www.syncandexplore.com/"
+									target="_blank"
+									className="text-violet-400 hover:underline"
+								>
+									Sync & Explore
+								</Link>
+								) with features like <strong>attendance</strong>, <strong>fee tracking</strong>, and <strong>student portals</strong>.
+							</li>
+							<li>
+								<strong>Hackathons:</strong> Finalist at <strong>SIH 2024</strong>, qualified
+								internals for <strong>SIH 2025</strong>, and{" "}
+								<strong>2nd runner-up at HackDiwas 2.0, Runner-up at MIET Hackathon. Participated in 15+ Hackathons and been finalist in 6 of them.</strong>
 
-							As a proud SIH 2022 finalist and runner-up, I’ve proven my ability to tackle complex challenges and deliver impactful solutions. My journey as a developer has been enriched by participating in multiple hackathons, where collaboration and problem-solving are at the forefront. Currently, I’m contributing as a web developer at IPU-IIF (Innovation and Incubation Foundation), where I’m working on projects that drive innovation.
+							</li>
+							<li>
+								Built a <strong>low-data online learning platform</strong>
+								(only <strong>40–50 MB/hr</strong> per class) using <strong>WebRTC</strong>, <strong>Sockets</strong>, and <strong>custom optimizations</strong>.
+							</li>
+							<li>
+								<strong>Freelance Projects:</strong> Delivered <strong>production-ready websites</strong> like{" "}
+								<Link
+									href="https://gbm-frontend-plum.vercel.app/"
+									target="_blank"
+									className="text-violet-400 hover:underline"
+								>
+									Grassberry
+								</Link>{" "}
+								and{" "}
+								<Link
+									href="https://senior-project-rosy.vercel.app/"
+									target="_blank"
+									className="text-violet-400 hover:underline"
+								>
+									Senior Project
+								</Link>
+								.
+							</li>
+							<li>
+								<strong>Real-Time Systems:</strong> Deep experience with <strong>WebRTC</strong>,
+								<strong>Socket.IO</strong>, and <strong>system optimizations</strong> for reliable communication.
+							</li>
+							<li>
+								<strong>Tech Skills:</strong> <strong>Java</strong>, <strong>Python</strong>, <strong>JavaScript/TypeScript</strong>,
+								<strong>React</strong>, <strong>Next.js</strong>, <strong>Node.js</strong>, <strong>Express</strong>,
+								<strong>MongoDB</strong>, <strong>PostgreSQL</strong>, <strong>Firebase</strong>,
+								<strong>Framer Motion</strong>, and more.
+							</li>
+							<li>
+								<strong>Leadership:</strong> <strong>Web Chairperson</strong> @ <strong>IEEE GGSIPU</strong> +
+								organized <strong>hackathons</strong> & <strong>technical events</strong>.
+							</li>
+							<li>
+								<strong>Currently:</strong> Diving into <strong>DSA</strong> + <strong>advanced backend systems</strong>
+								to level up <strong>problem-solving</strong> & <strong>scalability skills</strong>.
+							</li>
+							<li>
+								<strong>Fun Side:</strong> <strong>Rubik’s cube speedsolver</strong>, <strong>tech content creator</strong>,
+								and love building apps with <strong>Framer Motion animations ✨</strong>
+							</li>
+						</ul>
 
-							Whether it&apos;s designing sleek, user-friendly interfaces or building robust back-end systems, I’m all about delivering quality, efficiency, and reliability in every project. I&apos;m always eager to learn new tools, explore emerging technologies, and collaborate with like-minded individuals on exciting ventures.
-
-							Let&apos;s connect and create something awesome together! 🚀
-						</p>
-						<div className="mt-2 flex items-center gap-4 md:mt-4">
+						{/* Buttons */}
+						<div className="mt-4 flex items-center gap-4">
 							<Link
 								href="/resume.pdf"
 								target="_blank"

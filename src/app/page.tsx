@@ -57,7 +57,7 @@ export default async function Home() {
 			<Hero socialMedia={socialMedia} />
 			<About />
 			<Skills categories={categories} skills={skills} />
-			<Projects projects={projects} />
+			<Projects projects={projects.reverse()} />
 			<Contact socialMedia={socialMedia} />
 		</>
 	);
