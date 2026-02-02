@@ -8,6 +8,8 @@ import ProjectModel, { Project } from "@/model/projects.model";
 import Contact from "@/components/Contact";
 import { BsGithub, BsTwitter } from "react-icons/bs";
 import { LiaLinkedinIn } from "react-icons/lia";
+import { FaCode } from "react-icons/fa";
+import { TbBrandLeetcode } from "react-icons/tb";
 
 export default async function Home() {
 	await dbConnect();
@@ -49,6 +51,11 @@ export default async function Home() {
 			name: "GitHub",
 			link: "https://github.com/Sanyam1207",
 			logo: <BsGithub className="size-5" />,
+		},
+		{
+			name: "Leetcode",
+			link: "https://leetcode.com/u/sanyam1207",
+			logo: <TbBrandLeetcode className="size-5" />,
 		},
 	];
 
